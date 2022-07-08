@@ -213,6 +213,10 @@ li.inactivo {
 
 }
 
+#navbar.scrolled{
+  background-color: #212832 !important;
+}
+
  .card-text{
   color: rgb(105, 112, 122);
   font-size: .9rem;
