@@ -176,6 +176,33 @@ li.activo {
 li.inactivo {
     list-style-image: url('../img/item-inactivo.svg');
 }
+
+.card-dark {
+    background-color: rgb(54, 61, 71);
+}
+
+.bg-badge-dark {
+    background-color: rgb(48, 55, 64);
+}
+
+.card-footer-dark {
+    background-color: rgb(33, 40, 50);
+}
+
+.text-card-dark {
+    color: rgb(95, 107, 122);
+}
+
+.text-badge-dark {
+    color: rgb(149, 152, 157);
+}
+
+.flechita-dark::after {
+  height: 0.6rem;
+  width: 1rem;
+  filter: invert(68%) sepia(8%) saturate(186%) hue-rotate(179deg) brightness(88%) contrast(84%);
+}
+
 #heading{
   background-color: #0061f2;
   background-image: linear-gradient(135deg, #0061f2 0%, rgba(105, 0, 199, 0.8) 100%)
