@@ -1,19 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200;400;500;800&display=swap%22");
 
-
 * {
-    box-sizing: border-box;
-    margin: 0;
-    font-family: "Plus Jakarta Sans", sans-serif;
-    
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
 }
 
 .bg-color {
   background-color: #f2f6fc;
 }
 
-#landing, #top-stories{
-  margin-top:30px !important;
+#landing,
+#top-stories {
+  margin-top: 30px !important;
 }
 
 nav ul li {
@@ -21,13 +20,13 @@ nav ul li {
 }
 
 nav div ul li a {
-    margin-right: 2rem;
+  margin-right: 2rem;
 }
 
 .nav-link,
 .nav-link:hover {
-    color: black !important;
-    text-decoration: none;
+  color: black !important;
+  text-decoration: none;
 }
 
 .nav-link::after {
@@ -39,7 +38,6 @@ nav div ul li a {
   background-position: center;
   background-repeat: no-repeat;
   margin-left: 0.25rem;
-  
 }
 
 .nav-link[aria-expanded="true"]::after {
@@ -76,40 +74,40 @@ nav div ul li a {
 }
 
 .doc-dropdown {
-    width: 400px;
+  width: 400px;
 }
 
 .doc-dropdown .row:hover {
-    background-color: lightgray;
+  background-color: lightgray;
 }
 
 .doc-dropdown .row:active {
-    background-color: #006fff;
-    color: white;
+  background-color: #006fff;
+  color: white;
 }
 
 .doc-svg {
-    padding: 16px;
-    box-sizing: content-box;
-    height: 24px;
-    width: 24px !important;
-    border-radius: 50%;
-    background-color: lightblue;
-    justify-self: center;
-    align-self: center;
-    color: #006fff !important;
+  padding: 16px;
+  box-sizing: content-box;
+  height: 24px;
+  width: 24px !important;
+  border-radius: 50%;
+  background-color: lightblue;
+  justify-self: center;
+  align-self: center;
+  color: #006fff !important;
 }
 
 .info-doc {
-    font-size: 0.75rem;
-    color: #aaa;
-    margin: 0;
-    padding-top: 1rem;
+  font-size: 0.75rem;
+  color: #aaa;
+  margin: 0;
+  padding-top: 1rem;
 }
 .text-doc {
-    font-size: .9rem;
-    margin: 0;
-    padding-bottom: 1rem;
+  font-size: 0.9rem;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
 #nav-landing-menu {
@@ -117,7 +115,7 @@ nav div ul li a {
 }
 
 .img-menu-nav {
-  background-image: url('https://sb-ui-kit-pro.startbootstrap.com/assets/img/backgrounds/bg-dropdown-xl.jpg');
+  background-image: url("https://sb-ui-kit-pro.startbootstrap.com/assets/img/backgrounds/bg-dropdown-xl.jpg");
   background-size: cover;
   background-clip: border-box;
   border-top-left-radius: 6px;
@@ -131,4 +129,36 @@ nav div ul li a {
 }
 .btn-success:hover {
   background-color: rgb(0, 158, 126) !important;
+}
+
+.bg-primary-soft {
+  background-color: rgb(218, 231, 251);
+}
+
+.flechita::after {
+  content: "";
+  height: 1em;
+  width: 1em;
+  display: inline-block;
+  background-image: url("../img/arrow.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-left: 0.25rem;
+  filter: invert(1);
+  vertical-align: middle;
+}
+
+.flechita-link::after {
+  height: 0.6rem;
+  width: 1rem;
+  filter: invert(21%) sepia(42%) saturate(5918%) hue-rotate(211deg)
+    brightness(104%) contrast(102%);
+}
+
+li.activo {
+    list-style-image: url('../img/item-activo.svg');
+}
+
+li.inactivo {
+    list-style-image: url('../img/item-inactivo.svg');
 }
