@@ -201,10 +201,24 @@ li.inactivo {
   filter: invert(68%) sepia(8%) saturate(186%) hue-rotate(179deg) brightness(88%) contrast(84%);
 }
 
-.page-header{
-  padding: 150px 0 128px 0;
+#pricing {
   color: #fff;
+  position:relative; 
+  padding-bottom: 100px;
+  padding-top: 80px;
+
 }
+
+.infoSimple::after{
+  content: "";
+  width: 100%;
+  height: 40px;
+  display: inline-block;
+  background-image: url("../img/whiteCurve.svg");
+  position: absolute;
+  right: 0;
+  bottom: 0;
+ }
 
 .courv_blue {
   position: relative;
@@ -467,8 +481,7 @@ padding: 100px ;
 
  header{
   position:relative; 
-  padding-bottom: 100px;
-  padding-top: 80px;
+
 }
 
 .infoSimple::after{
